@@ -1,2 +1,7 @@
 1、git init 初始化本地仓库
-2、git status 查看文件状态，1红色：没有和仓库关联
+2、git status 查看文件状态，1红色：没有和仓库关联、绿色：表示文件已经存在本地仓库
+3、git add 添加文件到本地暂存区中 ，一次可以添加多个不同的文件
+4、git commit -m"说明文",将暂存区添加到本地仓库中，追加提交的说明文
+5、git clone  获取远程仓库项目
+6、git remote add origin url 添加远程仓库路径
+7、git push -u origin master 将本地内容push 到远程仓库中
